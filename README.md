@@ -20,6 +20,10 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
+
+[//]: # (Image References)
+
+[image1]: ./test_images/output_solidWhiteCurve.jpg "SolidWhiteCurve"
 ---
 
 ### Reflection
@@ -39,7 +43,7 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 
 add edge detection, canny lines, hough transform, final lines
 ![alt text][./test_images/output_solidWhiteCurve.jpg "SolidWhiteCurve"]
-
+![solidwhitecurve image][image1]
 
 ### 2. Identification of potential shortcomings with the current pipeline
 
