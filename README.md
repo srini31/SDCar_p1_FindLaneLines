@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
+## Project Writeup
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
 
 Overview
@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Description of the pipeline and explanation of how the draw_lines() function was modified.
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
@@ -41,7 +41,7 @@ add edge detection, canny lines, hough transform, final lines
 ![alt text][./test_images/output_solidWhiteCurve.jpg "SolidWhiteCurve"]
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Identification of potential shortcomings with the current pipeline
 
 For all the pictures and videos, the current pipeline appears to work well. 
 
@@ -57,7 +57,7 @@ Some major shortcomings were found when using the challenge video which are list
     - Tire marks on the road are detected and evaluated as a line
     - While turning, the region of interest also includes neighboring lanes and the slopes of lines in those lanes are included in the calculation
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Possible improvements to the pipeline
 
 
 Some possible improvements are
