@@ -41,9 +41,9 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 6) To draw a single line on left and right lanes, I created the draw_lines_new() function. Here I split small linesegments into left and right using the slope and finally found a mean value for center and slope for all the lines. Then a line is drawn from the bottom of the image to the start vertices of the region of interest that pass through this center point.
 7) Finally I created the weighted lines and flipped r,g,b values to get the required red color overlaid on the image
  
-
-add edge detection, canny lines, hough transform, final lines
 ![solidwhitecurve image][image1]
+
+Add edge detection, canny lines, hough transform to get the final output lines
 
 
 sample output
